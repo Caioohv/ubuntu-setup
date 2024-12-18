@@ -1,11 +1,11 @@
 sudo apt install nala -y
 
-sudo nala install gnome-tweaks gnome-shell-extension-manager 
-sudo nala install flatpak gnome-software-plugin-flatpak
+sudo nala install gnome-tweaks gnome-shell-extension-manager  -y
+sudo nala install flatpak gnome-software-plugin-flatpak -y
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-sudo nala install htop neofetch bpytop clang cargo libc6-i386 libc6-x32 libu2f-udev samba-common-bin exfat-fuse default-jdk curl wget unrar linux-headers-$(uname -r) git gstreamer1.0-vaapi unzip ntfs-3g p7zip htop neofetch bpytop git gcc make perl linux-headers-generic
+sudo nala install htop neofetch bpytop clang cargo libc6-i386 libc6-x32 libu2f-udev samba-common-bin exfat-fuse default-jdk curl wget unrar linux-headers-$(uname -r) git gstreamer1.0-vaapi unzip ntfs-3g p7zip htop neofetch bpytop git gcc make perl linux-headers-generic -y
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
