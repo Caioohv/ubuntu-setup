@@ -14,6 +14,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 cp ../.zshrc .zshrc_backup
 cp .zshrc ../.zshrc
 
+cp ../.gitconfig .gitconfig_backup
+cp .gitconfig ../.gitconfig
+
 dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt
 cp -r gnome_extensions/ ~/.local/share/gnome-shell/quicklaunch
 
