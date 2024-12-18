@@ -1,0 +1,8 @@
+[06:50:30 2024-12-18] FETCHING Version 2.38.5
+[06:50:30 2024-12-18] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.38.5/spicetify-2.38.5-linux-amd64.tar.gz
+[06:50:31 2024-12-18] EXTRACTING /home/viier/.spicetify/spicetify.tar.gz
+[06:50:31 2024-12-18] SETTING EXECUTABLE PERMISSIONS TO /home/viier/.spicetify/spicetify
+[06:50:31 2024-12-18] REMOVING /home/viier/.spicetify/spicetify.tar.gz
+[06:50:31 2024-12-18] APPENDING /home/viier/.spicetify to PATH in /home/viier/.zshrc
+[06:50:31 2024-12-18] spicetify v2.38.5 was installed successfully to /home/viier/.spicetify
+[06:50:31 2024-12-18] Run 'spicetify --help' to get started
