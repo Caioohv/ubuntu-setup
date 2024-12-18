@@ -18,7 +18,9 @@ cp ../.gitconfig .gitconfig_backup
 cp .gitconfig ../.gitconfig
 
 dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt
-cp -r gnome_extensions/ ~/.local/share/gnome-shell/quicklaunch
+
+rm -rf ~/.local/share/gnome-shell/extensions
+cp -r gnome_extensions/ ~/.local/share/gnome-shell/extensions
 
 sudo snap install spotify
 sudo snap install obsidian --classic
